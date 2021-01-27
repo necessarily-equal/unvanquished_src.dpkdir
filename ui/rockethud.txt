@@ -11,6 +11,7 @@ units
 	ui/hud_bp.rml
 	ui/hud_builder.rml
 	ui/hud_spawnwait.rml
+	ui/hud_zap.rml
 	ui/ingame_scoreboard.rml
 }
 
@@ -80,6 +81,17 @@ level1.hudgroup
 	hud_alien
 
 	hud_chargebar
+}
+
+level2upg.hudgroup
+{
+	hud_basics
+	hud_overlay
+	hud_messagebuffer
+
+	hud_alien
+
+	hud_zap
 }
 
 level3.hudgroup
