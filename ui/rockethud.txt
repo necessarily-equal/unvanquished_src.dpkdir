@@ -1,8 +1,8 @@
 units
 {
 	ui/hud_human.rml
+	ui/hud_zombie.rml
 	ui/hud_jetpack.rml
-	ui/hud_alien.rml
 	ui/hud_overlay.rml
 	ui/hud_messagebuffer.rml
 	ui/hud_basics.rml
@@ -35,13 +35,13 @@ human.hudgroup
 	hud_human
 }
 
-alien.hudgroup
+zombie.hudgroup
 {
 	hud_basics
 	hud_overlay
 	hud_messagebuffer
 
-	hud_alien
+	hud_zombie
 }
 
 // Individual classes/weapons
@@ -69,77 +69,4 @@ lcannon.hudgroup
 	hud_human
 
 	hud_chargebar
-}
-
-level1.hudgroup
-{
-	hud_basics
-	hud_overlay
-	hud_messagebuffer
-
-	hud_alien
-
-	hud_chargebar
-}
-
-level3.hudgroup
-{
-	hud_basics
-	hud_overlay
-	hud_messagebuffer
-
-	hud_alien
-
-	hud_chargebar
-}
-
-level3upg.hudgroup
-{
-	hud_basics
-	hud_overlay
-	hud_messagebuffer
-
-	hud_alien
-
-	hud_barbs
-	hud_chargebar
-}
-
-level4.hudgroup
-{
-	hud_basics
-	hud_overlay
-	hud_messagebuffer
-
-	hud_alien
-
-	hud_chargebar
-}
-
-abuild.hudgroup
-{
-	hud_basics
-	hud_overlay
-	hud_messagebuffer
-
-	hud_alien
-
-	hud_chargebar
-
-	hud_bp
-	hud_builder
-}
-
-abuildupg.hudgroup
-{
-	hud_basics
-	hud_overlay
-	hud_messagebuffer
-
-	hud_alien
-
-	hud_chargebar
-
-	hud_bp
-	hud_builder
 }

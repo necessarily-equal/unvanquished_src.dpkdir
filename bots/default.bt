@@ -42,23 +42,11 @@ selector
 	{
 		sequence
 		{
-			condition team == TEAM_ALIENS
-			condition healScore <= 0.25
-			action heal
-		}
-
-		sequence
-		{
 			condition team == TEAM_HUMANS
 			condition !haveUpgrade( UP_MEDKIT )
 			condition healScore <= 0.25
 			action heal
 		}
-	}
-
-	condition team == TEAM_ALIENS
-	{
-		action evolve
 	}
 
 	sequence
